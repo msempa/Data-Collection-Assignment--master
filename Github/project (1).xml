@@ -1,0 +1,94 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>project</h:title>
+    <model>
+      <instance>
+        <data id="build_project_1518594853">
+          <meta>
+            <instanceID/>
+          </meta>
+          <page1>
+            <Name/>
+            <number/>
+          </page1>
+          <img/>
+          <Country/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/page1:label">
+            <value></value>
+          </text>
+          <text id="/data/page1/Name:label">
+            <value>Name</value>
+          </text>
+          <text id="/data/page1/Name:hint">
+            <value>Enter name</value>
+          </text>
+          <text id="/data/page1/number:label">
+            <value>Phone number</value>
+          </text>
+          <text id="/data/page1/number:hint">
+            <value>Enter phpne</value>
+          </text>
+          <text id="/data/img:label">
+            <value>Upload Image</value>
+          </text>
+          <text id="/data/img:hint">
+            <value>picture</value>
+          </text>
+          <text id="/data/Country:label">
+            <value>What is your country?</value>
+          </text>
+          <text id="/data/Country:option0">
+            <value>Uganda</value>
+          </text>
+          <text id="/data/Country:option1">
+            <value>Kenya</value>
+          </text>
+          <text id="/data/Country:option2">
+            <value>Tanzania</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/page1/Name" type="string" required="true()"/>
+      <bind nodeset="/data/page1/number" type="int" required="true()"/>
+      <bind nodeset="/data/img" type="binary" required="true()"/>
+      <bind nodeset="/data/Country" type="select1" required="true()"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/page1:label')"/>
+      <input ref="/data/page1/Name">
+        <label ref="jr:itext('/data/page1/Name:label')"/>
+        <hint ref="jr:itext('/data/page1/Name:hint')"/>
+      </input>
+      <input ref="/data/page1/number">
+        <label ref="jr:itext('/data/page1/number:label')"/>
+        <hint ref="jr:itext('/data/page1/number:hint')"/>
+      </input>
+    </group>
+    <upload ref="/data/img" mediatype="image/*">
+      <label ref="jr:itext('/data/img:label')"/>
+      <hint ref="jr:itext('/data/img:hint')"/>
+    </upload>
+    <select1 ref="/data/Country">
+      <label ref="jr:itext('/data/Country:label')"/>
+      <item>
+        <label ref="jr:itext('/data/Country:option0')"/>
+        <value>uganda</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Country:option1')"/>
+        <value>kenya</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Country:option2')"/>
+        <value>tanzania</value>
+      </item>
+    </select1>
+  </h:body>
+</h:html>

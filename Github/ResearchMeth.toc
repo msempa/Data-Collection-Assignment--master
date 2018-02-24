@@ -1,0 +1,21 @@
+\contentsline {paragraph}{•}{1}
+\contentsline {paragraph}{•}{1}
+\contentsline {paragraph}{•}{1}
+\contentsline {paragraph}{•}{1}
+\contentsline {paragraph}{•}{1}
+\contentsline {paragraph}{•}{1}
+\contentsline {paragraph}{•}{1}
+\contentsline {section}{\numberline {1}TOPIC}{1}
+\contentsline {section}{\numberline {2}INTRODUCTION}{1}
+\contentsline {section}{\numberline {3}PROBLEM STATEMENT}{1}
+\contentsline {section}{\numberline {4}MAIN OBJECTIVE}{1}
+\contentsline {section}{\numberline {5}SPECIFIC OBJECTIVES}{2}
+\contentsline {section}{\numberline {6}METHODOLOGY}{2}
+\contentsline {subsection}{\numberline {6.1}Research Design}{2}
+\contentsline {subsection}{\numberline {6.2}Population Size}{2}
+\contentsline {subsection}{\numberline {6.3}Sampling Frame}{2}
+\contentsline {subsection}{\numberline {6.4}Research Procedure}{2}
+\contentsline {subsection}{\numberline {6.5}Desk Study}{2}
+\contentsline {subsection}{\numberline {6.6}Data collection methods}{2}
+\contentsline {subsection}{\numberline {6.7}Data Processing and Analysis}{3}
+\contentsline {section}{\numberline {7}REFERENCES}{3}
